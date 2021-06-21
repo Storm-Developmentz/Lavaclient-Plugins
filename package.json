@@ -1,0 +1,26 @@
+{
+    "name": "stormbeatz-lavaclient-rest",
+    "version": "1.0.2",
+    "description": "A lavaclient plugin that adds REST functionality to lavaclient.",
+    "main": "src/index.js",
+    "types": "index.d.ts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lavaclient/plugins.git"
+    },
+    "author": "MeLike2D",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lavaclient/plugins/issues"
+    },
+    "homepage": "https://github.com/lavaclient/plugins#readme",
+    "devDependencies": {
+      "@kyflx-dev/lavalink-types": "^1.0.2",
+      "@types/node": "^14.0.19",
+      "discord.js": "^12.2.0",
+      "dotenv": "^8.2.0",
+      "eslint": "^7.4.0",
+      "lavaclient": "^3.0.10"
+    },
+    "dependencies": {}
+  }
