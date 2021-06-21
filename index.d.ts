@@ -4,12 +4,12 @@
 //   ../http
 //   ../@kyflx-dev/lavalink-types
 
-import type { Manager, Plugin, Socket } from "lavaclient";
+import type { Manager, Plugin, Socket } from "stormbeatz-lavaclient";
 import type { RequestOptions } from "http";
-import type * as Lava from "@lavaclient/types";
+import type * as Lava from "stormbeatz-lavaclient-types";
 
 declare module "lavaclient" {
-  import { REST } from "@lavaclient/rest";
+  import { REST } from "stormbeatz-lavaclient-rest";
 
   interface Socket {
     rest: REST;
