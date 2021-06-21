@@ -2,7 +2,7 @@
     "name": "stormbeatz-lavaclient-rest",
     "version": "1.0.0",
     "description": "A lavaclient plugin that adds REST functionality to lavaclient.",
-    "main": "src/index.js",
+    "main": "rest/index.js",
     "types": "index.d.ts",
     "repository": {
       "type": "git",
